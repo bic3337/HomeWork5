@@ -12,7 +12,7 @@ public class Main {
 
         }
         System.out.println("");
-        for (int c = 0; c < 17; c = c + 2) {
+        for (int c = 0; c <=17; c = c + 2) {
             System.out.println(c);
 
         }
@@ -32,7 +32,6 @@ public class Main {
 
         }
         System.out.println("");
-        /// Здесь выполнено 8я и 9я задача.
         int salary = 29000;
         int total = 0;
         for (int g = 1; g < 13; g++) {
@@ -52,10 +51,16 @@ public class Main {
             System.out.println(i);
 
         }
+        System.out.println("");
+        int salaryA = 29000;
+        int totalA = 0;
+        for (int f = 1; f <= 12; f++) {
+            totalA = totalA + salaryA;
+            System.out.println(" Месяц " + f + " сумма накоплений равна " + totalA + " руб.");
 
+
+        }
 
     }
-
 }
-
 
